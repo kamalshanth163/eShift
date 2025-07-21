@@ -52,37 +52,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Admin\AddAdminForm.cs">
+    <Compile Include="Forms\AdminForms\AddAdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Admin\AddProductForm.cs">
+    <Compile Include="Forms\AdminForms\AddProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Admin\AdminDashboard.cs">
+    <Compile Include="Forms\AdminForms\AdminDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Admin\AssignTransportForm.cs">
+    <Compile Include="Forms\AdminForms\AssignTransportForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Admin\ManageAdminsForm.cs">
+    <Compile Include="Forms\AdminForms\ManageAdminsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Admin\ManageProductsForm.cs">
+    <Compile Include="Forms\AdminForms\ManageProductsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Admin\ProcessJobForm.cs">
+    <Compile Include="Forms\AdminForms\ProcessJobForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Customer\CustomerDashboard.cs">
+    <Compile Include="Forms\CustomerForms\CustomerDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Customer\CustomerProfileForm.cs">
+    <Compile Include="Forms\CustomerForms\CustomerProfileForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Customer\NewJobForm.cs">
+    <Compile Include="Forms\CustomerForms\NewJobForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Customer\ViewLoadsForm.cs">
+    <Compile Include="Forms\CustomerForms\ViewLoadsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\MainForm.cs">
@@ -103,6 +103,15 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\DatabaseHelper.cs" />
+    <EmbeddedResource Include="Forms\CustomerForms\CustomerDashboard.resx">
+      <DependentUpon>CustomerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CustomerForms\NewJobForm.resx">
+      <DependentUpon>NewJobForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Shared\RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </EmbeddedResource>

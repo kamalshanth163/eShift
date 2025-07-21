@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
-namespace eShift.Forms.Admin
+namespace eShift.Forms.AdminForms
 {
     public partial class AddProductForm : Form
     {

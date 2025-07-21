@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace eShift.Forms.Admin
+namespace eShift.Forms.AdminForms
 {
     public partial class ProcessJobForm : Form
     {

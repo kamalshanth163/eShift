@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace eShift.Forms.Customer
+namespace eShift.Forms.CustomerForms
 {
     public partial class ViewLoadsForm : Form
     {
