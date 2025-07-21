@@ -13,7 +13,6 @@ namespace eShift.Forms.Shared
         private Button btnPrint;
         private Button btnClose;
         private Button btnGenerate;
-        private Button btnViewLoads;
         private Label label1;
         private ComboBox cmbReportType;
         private Label lblTitle;
@@ -121,13 +120,17 @@ namespace eShift.Forms.Shared
             }
         }
 
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void InitializeComponent()
         {
             this.dgvReport = new System.Windows.Forms.DataGridView();
             this.btnPrint = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnGenerate = new System.Windows.Forms.Button();
-            this.btnViewLoads = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbReportType = new System.Windows.Forms.ComboBox();
@@ -148,12 +151,13 @@ namespace eShift.Forms.Shared
             // 
             // btnPrint
             // 
-            this.btnPrint.Location = new System.Drawing.Point(696, 61);
+            this.btnPrint.Location = new System.Drawing.Point(632, 61);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(84, 23);
             this.btnPrint.TabIndex = 41;
             this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // btnClose
             // 
@@ -163,24 +167,17 @@ namespace eShift.Forms.Shared
             this.btnClose.TabIndex = 40;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(443, 61);
+            this.btnGenerate.Location = new System.Drawing.Point(524, 61);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(90, 23);
             this.btnGenerate.TabIndex = 39;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = true;
-            // 
-            // btnViewLoads
-            // 
-            this.btnViewLoads.Location = new System.Drawing.Point(557, 61);
-            this.btnViewLoads.Name = "btnViewLoads";
-            this.btnViewLoads.Size = new System.Drawing.Size(118, 23);
-            this.btnViewLoads.TabIndex = 38;
-            this.btnViewLoads.Text = "View Loads";
-            this.btnViewLoads.UseVisualStyleBackColor = true;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // lblTitle
             // 
@@ -220,7 +217,6 @@ namespace eShift.Forms.Shared
             this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnGenerate);
-            this.Controls.Add(this.btnViewLoads);
             this.Controls.Add(this.lblTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;

@@ -88,6 +88,7 @@ namespace eShift.Forms.AdminForms
             this.btnCancel.TabIndex = 57;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSave
             // 
@@ -97,6 +98,7 @@ namespace eShift.Forms.AdminForms
             this.btnSave.TabIndex = 56;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label8
             // 

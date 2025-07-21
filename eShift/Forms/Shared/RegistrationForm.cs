@@ -190,6 +190,7 @@ namespace eShift.Forms.Shared
             this.btnRegister.TabIndex = 15;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // btnCancel
             // 
@@ -199,6 +200,7 @@ namespace eShift.Forms.Shared
             this.btnCancel.TabIndex = 16;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // txtName
             // 

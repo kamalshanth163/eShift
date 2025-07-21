@@ -94,6 +94,7 @@ namespace eShift.Forms.AdminForms
             this.btnClose.TabIndex = 65;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnAssign
             // 
@@ -104,6 +105,7 @@ namespace eShift.Forms.AdminForms
             this.btnAssign.TabIndex = 64;
             this.btnAssign.Text = "Assign";
             this.btnAssign.UseVisualStyleBackColor = false;
+            this.btnAssign.Click += new System.EventHandler(this.btnAssign_Click);
             // 
             // lblJobNumber
             // 

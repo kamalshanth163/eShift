@@ -216,21 +216,23 @@ namespace eShift.Forms.CustomerForms
             // 
             // btnAddLoad
             // 
-            this.btnAddLoad.Location = new System.Drawing.Point(551, 194);
+            this.btnAddLoad.Location = new System.Drawing.Point(543, 194);
             this.btnAddLoad.Name = "btnAddLoad";
             this.btnAddLoad.Size = new System.Drawing.Size(75, 23);
             this.btnAddLoad.TabIndex = 32;
             this.btnAddLoad.Text = "Add Load";
             this.btnAddLoad.UseVisualStyleBackColor = true;
+            this.btnAddLoad.Click += new System.EventHandler(this.btnAddLoad_Click);
             // 
             // btnRemoveLoad
             // 
-            this.btnRemoveLoad.Location = new System.Drawing.Point(651, 194);
+            this.btnRemoveLoad.Location = new System.Drawing.Point(634, 194);
             this.btnRemoveLoad.Name = "btnRemoveLoad";
-            this.btnRemoveLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnRemoveLoad.Size = new System.Drawing.Size(100, 23);
             this.btnRemoveLoad.TabIndex = 31;
             this.btnRemoveLoad.Text = "Remove Load";
             this.btnRemoveLoad.UseVisualStyleBackColor = true;
+            this.btnRemoveLoad.Click += new System.EventHandler(this.btnRemoveLoad_Click);
             // 
             // lblDestination
             // 
@@ -333,6 +335,7 @@ namespace eShift.Forms.CustomerForms
             this.btnCreateJob.TabIndex = 42;
             this.btnCreateJob.Text = "Create Job";
             this.btnCreateJob.UseVisualStyleBackColor = true;
+            this.btnCreateJob.Click += new System.EventHandler(this.btnCreateJob_Click);
             // 
             // Cancel
             // 
@@ -342,6 +345,7 @@ namespace eShift.Forms.CustomerForms
             this.Cancel.TabIndex = 41;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // dgvLoads
             // 

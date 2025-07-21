@@ -48,14 +48,14 @@ namespace eShift.Forms.CustomerForms
         private void InitializeComponent()
         {
             this.dgvLoads = new System.Windows.Forms.DataGridView();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.lblJobNumber = new System.Windows.Forms.Label();
             this.LoadNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Weight = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Instructions = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblJobNumber = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLoads)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,34 +76,6 @@ namespace eShift.Forms.CustomerForms
             this.dgvLoads.ReadOnly = true;
             this.dgvLoads.Size = new System.Drawing.Size(718, 269);
             this.dgvLoads.TabIndex = 46;
-            // 
-            // btnClose
-            // 
-            this.btnClose.Location = new System.Drawing.Point(766, 65);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
-            this.btnClose.TabIndex = 45;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(92, 51);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(118, 24);
-            this.lblTitle.TabIndex = 44;
-            this.lblTitle.Text = "View Loads";
-            // 
-            // lblJobNumber
-            // 
-            this.lblJobNumber.AutoSize = true;
-            this.lblJobNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJobNumber.Location = new System.Drawing.Point(122, 125);
-            this.lblJobNumber.Name = "lblJobNumber";
-            this.lblJobNumber.Size = new System.Drawing.Size(0, 24);
-            this.lblJobNumber.TabIndex = 47;
             // 
             // LoadNum
             // 
@@ -134,6 +106,35 @@ namespace eShift.Forms.CustomerForms
             this.Instructions.HeaderText = "Instructions";
             this.Instructions.Name = "Instructions";
             this.Instructions.ReadOnly = true;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(766, 65);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 45;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(92, 51);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(118, 24);
+            this.lblTitle.TabIndex = 44;
+            this.lblTitle.Text = "View Loads";
+            // 
+            // lblJobNumber
+            // 
+            this.lblJobNumber.AutoSize = true;
+            this.lblJobNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblJobNumber.Location = new System.Drawing.Point(122, 125);
+            this.lblJobNumber.Name = "lblJobNumber";
+            this.lblJobNumber.Size = new System.Drawing.Size(0, 24);
+            this.lblJobNumber.TabIndex = 47;
             // 
             // ViewLoadsForm
             // 

@@ -75,6 +75,7 @@ namespace eShift.Forms.AdminForms
             this.btnCancel.TabIndex = 58;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnAccept
             // 
@@ -85,6 +86,7 @@ namespace eShift.Forms.AdminForms
             this.btnAccept.TabIndex = 49;
             this.btnAccept.Text = "Accept";
             this.btnAccept.UseVisualStyleBackColor = false;
+            this.btnAccept.Click += new System.EventHandler(this.btnAccept_Click);
             // 
             // btnDecline
             // 
@@ -95,6 +97,7 @@ namespace eShift.Forms.AdminForms
             this.btnDecline.TabIndex = 48;
             this.btnDecline.Text = "Decline";
             this.btnDecline.UseVisualStyleBackColor = false;
+            this.btnDecline.Click += new System.EventHandler(this.btnDecline_Click);
             // 
             // lblJobNumber
             // 

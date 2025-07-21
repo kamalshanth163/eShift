@@ -92,21 +92,23 @@ namespace eShift.Forms
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(359, 381);
+            this.btnLogin.Location = new System.Drawing.Point(385, 355);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 23;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnRegister
             // 
-            this.btnRegister.Location = new System.Drawing.Point(458, 381);
+            this.btnRegister.Location = new System.Drawing.Point(484, 355);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(75, 23);
             this.btnRegister.TabIndex = 22;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // label8
             // 
@@ -145,7 +147,7 @@ namespace eShift.Forms
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(400, 105);
+            this.lblTitle.Location = new System.Drawing.Point(438, 98);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(62, 24);
             this.lblTitle.TabIndex = 17;
@@ -155,7 +157,8 @@ namespace eShift.Forms
             // 
             this.cmbUserType.FormattingEnabled = true;
             this.cmbUserType.Items.AddRange(new object[] {
-            "[\"Customer\", \"Admin\"]"});
+            "Customer",
+            "Admin"});
             this.cmbUserType.Location = new System.Drawing.Point(419, 187);
             this.cmbUserType.Name = "cmbUserType";
             this.cmbUserType.Size = new System.Drawing.Size(238, 21);
@@ -183,7 +186,7 @@ namespace eShift.Forms
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MinimizeBox = false;
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);

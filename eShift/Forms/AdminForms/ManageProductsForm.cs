@@ -71,14 +71,14 @@ namespace eShift.Forms.AdminForms
         private void InitializeComponent()
         {
             this.dgvProducts = new System.Windows.Forms.DataGridView();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnAddProduct = new System.Windows.Forms.Button();
-            this.btnDeleteProduct = new System.Windows.Forms.Button();
-            this.lblTitle = new System.Windows.Forms.Label();
             this.Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ProductName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fee = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnAddProduct = new System.Windows.Forms.Button();
+            this.btnDeleteProduct = new System.Windows.Forms.Button();
+            this.lblTitle = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,43 +97,6 @@ namespace eShift.Forms.AdminForms
             this.dgvProducts.ReadOnly = true;
             this.dgvProducts.Size = new System.Drawing.Size(718, 316);
             this.dgvProducts.TabIndex = 53;
-            // 
-            // btnClose
-            // 
-            this.btnClose.Location = new System.Drawing.Point(771, 63);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
-            this.btnClose.TabIndex = 52;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            // 
-            // btnAddProduct
-            // 
-            this.btnAddProduct.Location = new System.Drawing.Point(505, 63);
-            this.btnAddProduct.Name = "btnAddProduct";
-            this.btnAddProduct.Size = new System.Drawing.Size(104, 23);
-            this.btnAddProduct.TabIndex = 51;
-            this.btnAddProduct.Text = "Add Product";
-            this.btnAddProduct.UseVisualStyleBackColor = true;
-            // 
-            // btnDeleteProduct
-            // 
-            this.btnDeleteProduct.Location = new System.Drawing.Point(634, 63);
-            this.btnDeleteProduct.Name = "btnDeleteProduct";
-            this.btnDeleteProduct.Size = new System.Drawing.Size(112, 23);
-            this.btnDeleteProduct.TabIndex = 50;
-            this.btnDeleteProduct.Text = "Delete Product";
-            this.btnDeleteProduct.UseVisualStyleBackColor = true;
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(88, 54);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(173, 24);
-            this.lblTitle.TabIndex = 49;
-            this.lblTitle.Text = "Manage Products";
             // 
             // Code
             // 
@@ -158,6 +121,46 @@ namespace eShift.Forms.AdminForms
             this.Fee.HeaderText = "Fee";
             this.Fee.Name = "Fee";
             this.Fee.ReadOnly = true;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Location = new System.Drawing.Point(771, 63);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 52;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnAddProduct
+            // 
+            this.btnAddProduct.Location = new System.Drawing.Point(505, 63);
+            this.btnAddProduct.Name = "btnAddProduct";
+            this.btnAddProduct.Size = new System.Drawing.Size(104, 23);
+            this.btnAddProduct.TabIndex = 51;
+            this.btnAddProduct.Text = "Add Product";
+            this.btnAddProduct.UseVisualStyleBackColor = true;
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
+            // 
+            // btnDeleteProduct
+            // 
+            this.btnDeleteProduct.Location = new System.Drawing.Point(634, 63);
+            this.btnDeleteProduct.Name = "btnDeleteProduct";
+            this.btnDeleteProduct.Size = new System.Drawing.Size(112, 23);
+            this.btnDeleteProduct.TabIndex = 50;
+            this.btnDeleteProduct.Text = "Delete Product";
+            this.btnDeleteProduct.UseVisualStyleBackColor = true;
+            this.btnDeleteProduct.Click += new System.EventHandler(this.btnDeleteProduct_Click);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(88, 54);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(173, 24);
+            this.lblTitle.TabIndex = 49;
+            this.lblTitle.Text = "Manage Products";
             // 
             // ManageProductsForm
             // 

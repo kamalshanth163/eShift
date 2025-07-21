@@ -88,6 +88,7 @@ namespace eShift.Forms.CustomerForms
             this.btnNewJob.TabIndex = 32;
             this.btnNewJob.Text = "New Job";
             this.btnNewJob.UseVisualStyleBackColor = true;
+            this.btnNewJob.Click += new System.EventHandler(this.btnNewJob_Click);
             // 
             // btnViewLoads
             // 
@@ -97,6 +98,7 @@ namespace eShift.Forms.CustomerForms
             this.btnViewLoads.TabIndex = 31;
             this.btnViewLoads.Text = "View Loads";
             this.btnViewLoads.UseVisualStyleBackColor = true;
+            this.btnViewLoads.Click += new System.EventHandler(this.btnViewLoads_Click);
             // 
             // lblTitle
             // 
@@ -116,6 +118,7 @@ namespace eShift.Forms.CustomerForms
             this.btnUpdateProfile.TabIndex = 34;
             this.btnUpdateProfile.Text = "Update Profile";
             this.btnUpdateProfile.UseVisualStyleBackColor = true;
+            this.btnUpdateProfile.Click += new System.EventHandler(this.btnUpdateProfile_Click);
             // 
             // btnLogout
             // 
@@ -125,6 +128,7 @@ namespace eShift.Forms.CustomerForms
             this.btnLogout.TabIndex = 33;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.ClientSizeChanged += new System.EventHandler(this.btnLogout_Click);
             // 
             // dgvJobs
             // 

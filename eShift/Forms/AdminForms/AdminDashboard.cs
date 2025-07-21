@@ -30,7 +30,7 @@ namespace eShift.Forms.AdminForms
         {
             InitializeComponent();
             this.admin = admin;
-            lblWelcome.Text = $"Welcome, Admin {admin.Name}";
+            lblWelcome.Text = $"Welcome, {admin.Name}";
             LoadPendingJobs();
             LoadAllJobs();
             LoadTransportUnits();
@@ -156,6 +156,7 @@ namespace eShift.Forms.AdminForms
             this.btnManageAdmins.TabIndex = 41;
             this.btnManageAdmins.Text = "Manage Admins";
             this.btnManageAdmins.UseVisualStyleBackColor = true;
+            this.btnManageAdmins.Click += new System.EventHandler(this.btnManageAdmins_Click);
             // 
             // btnLogout
             // 
@@ -165,6 +166,7 @@ namespace eShift.Forms.AdminForms
             this.btnLogout.TabIndex = 40;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnProcessJob
             // 
@@ -174,6 +176,7 @@ namespace eShift.Forms.AdminForms
             this.btnProcessJob.TabIndex = 39;
             this.btnProcessJob.Text = "Process Job";
             this.btnProcessJob.UseVisualStyleBackColor = true;
+            this.btnProcessJob.Click += new System.EventHandler(this.btnProcessJob_Click);
             // 
             // btnAssignTransport
             // 
@@ -183,6 +186,7 @@ namespace eShift.Forms.AdminForms
             this.btnAssignTransport.TabIndex = 38;
             this.btnAssignTransport.Text = "Assign Transport";
             this.btnAssignTransport.UseVisualStyleBackColor = true;
+            this.btnAssignTransport.Click += new System.EventHandler(this.btnAssignTransport_Click);
             // 
             // lblTitle
             // 
@@ -202,6 +206,7 @@ namespace eShift.Forms.AdminForms
             this.btnManageProducts.TabIndex = 44;
             this.btnManageProducts.Text = "Manage Products";
             this.btnManageProducts.UseVisualStyleBackColor = true;
+            this.btnManageProducts.Click += new System.EventHandler(this.btnManageProducts_Click);
             // 
             // btnGenerateReports
             // 
@@ -211,6 +216,7 @@ namespace eShift.Forms.AdminForms
             this.btnGenerateReports.TabIndex = 45;
             this.btnGenerateReports.Text = "Generate Reports";
             this.btnGenerateReports.UseVisualStyleBackColor = true;
+            this.btnGenerateReports.Click += new System.EventHandler(this.btnGenerateReports_Click);
             // 
             // tabControl1
             // 
@@ -253,7 +259,7 @@ namespace eShift.Forms.AdminForms
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(818, 302);
+            this.tabPage2.Size = new System.Drawing.Size(818, 261);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "All Jobs";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -265,7 +271,7 @@ namespace eShift.Forms.AdminForms
             this.dgvAllJobs.Location = new System.Drawing.Point(3, 3);
             this.dgvAllJobs.Name = "dgvAllJobs";
             this.dgvAllJobs.ReadOnly = true;
-            this.dgvAllJobs.Size = new System.Drawing.Size(812, 296);
+            this.dgvAllJobs.Size = new System.Drawing.Size(812, 255);
             this.dgvAllJobs.TabIndex = 37;
             // 
             // tabPage3
@@ -273,7 +279,7 @@ namespace eShift.Forms.AdminForms
             this.tabPage3.Controls.Add(this.dgvTransportUnits);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(818, 302);
+            this.tabPage3.Size = new System.Drawing.Size(818, 261);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Transport Units";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -285,7 +291,7 @@ namespace eShift.Forms.AdminForms
             this.dgvTransportUnits.Location = new System.Drawing.Point(0, 0);
             this.dgvTransportUnits.Name = "dgvTransportUnits";
             this.dgvTransportUnits.ReadOnly = true;
-            this.dgvTransportUnits.Size = new System.Drawing.Size(818, 302);
+            this.dgvTransportUnits.Size = new System.Drawing.Size(818, 261);
             this.dgvTransportUnits.TabIndex = 37;
             // 
             // AdminDashboard

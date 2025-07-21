@@ -59,4 +59,4 @@ CREATE TABLE Loads (
 
 -- Insert initial admin account
 INSERT INTO Admins (AdminId, Name, Username, Password) 
-VALUES ('ADMIN001', 'System Admin', 'admin', 'admin123');
+VALUES ('ADMIN001', 'Admin', 'admin', 'password');
