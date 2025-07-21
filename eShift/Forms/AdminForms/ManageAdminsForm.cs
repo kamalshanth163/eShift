@@ -11,9 +11,6 @@ namespace eShift.Forms.AdminForms
         private Button btnClose;
         private Button btnAddAdmin;
         private Button btnDeleteAdmin;
-        private DataGridViewTextBoxColumn AdminId;
-        private DataGridViewTextBoxColumn AdminName;
-        private DataGridViewTextBoxColumn Username;
         private Label lblTitle;
 
         public ManageAdminsForm()
@@ -70,9 +67,6 @@ namespace eShift.Forms.AdminForms
         private void InitializeComponent()
         {
             this.dgvAdmins = new System.Windows.Forms.DataGridView();
-            this.AdminId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AdminName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnAddAdmin = new System.Windows.Forms.Button();
             this.btnDeleteAdmin = new System.Windows.Forms.Button();
@@ -85,33 +79,11 @@ namespace eShift.Forms.AdminForms
             this.dgvAdmins.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvAdmins.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAdmins.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.AdminId,
-            this.AdminName,
-            this.Username});
             this.dgvAdmins.Location = new System.Drawing.Point(123, 138);
             this.dgvAdmins.Name = "dgvAdmins";
             this.dgvAdmins.ReadOnly = true;
             this.dgvAdmins.Size = new System.Drawing.Size(718, 316);
             this.dgvAdmins.TabIndex = 48;
-            // 
-            // AdminId
-            // 
-            this.AdminId.HeaderText = "Admin Id";
-            this.AdminId.Name = "AdminId";
-            this.AdminId.ReadOnly = true;
-            // 
-            // AdminName
-            // 
-            this.AdminName.HeaderText = "Admin Name";
-            this.AdminName.Name = "AdminName";
-            this.AdminName.ReadOnly = true;
-            // 
-            // Username
-            // 
-            this.Username.HeaderText = "Username";
-            this.Username.Name = "Username";
-            this.Username.ReadOnly = true;
             // 
             // btnClose
             // 

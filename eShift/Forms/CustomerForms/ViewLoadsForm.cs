@@ -10,11 +10,6 @@ namespace eShift.Forms.CustomerForms
         private Button btnClose;
         private Label lblTitle;
         private Label lblJobNumber;
-        private DataGridViewTextBoxColumn LoadNum;
-        private DataGridViewTextBoxColumn Product;
-        private DataGridViewTextBoxColumn Qty;
-        private DataGridViewTextBoxColumn Weight;
-        private DataGridViewTextBoxColumn Instructions;
         private string jobNumber;
 
         public ViewLoadsForm(string jobNumber)
@@ -48,11 +43,6 @@ namespace eShift.Forms.CustomerForms
         private void InitializeComponent()
         {
             this.dgvLoads = new System.Windows.Forms.DataGridView();
-            this.LoadNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Weight = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Instructions = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnClose = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblJobNumber = new System.Windows.Forms.Label();
@@ -65,47 +55,11 @@ namespace eShift.Forms.CustomerForms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvLoads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLoads.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.LoadNum,
-            this.Product,
-            this.Qty,
-            this.Weight,
-            this.Instructions});
             this.dgvLoads.Location = new System.Drawing.Point(123, 190);
             this.dgvLoads.Name = "dgvLoads";
             this.dgvLoads.ReadOnly = true;
             this.dgvLoads.Size = new System.Drawing.Size(718, 269);
             this.dgvLoads.TabIndex = 46;
-            // 
-            // LoadNum
-            // 
-            this.LoadNum.HeaderText = "Load Number";
-            this.LoadNum.Name = "LoadNum";
-            this.LoadNum.ReadOnly = true;
-            // 
-            // Product
-            // 
-            this.Product.HeaderText = "Product";
-            this.Product.Name = "Product";
-            this.Product.ReadOnly = true;
-            // 
-            // Qty
-            // 
-            this.Qty.HeaderText = "Qty";
-            this.Qty.Name = "Qty";
-            this.Qty.ReadOnly = true;
-            // 
-            // Weight
-            // 
-            this.Weight.HeaderText = "Weight";
-            this.Weight.Name = "Weight";
-            this.Weight.ReadOnly = true;
-            // 
-            // Instructions
-            // 
-            this.Instructions.HeaderText = "Instructions";
-            this.Instructions.Name = "Instructions";
-            this.Instructions.ReadOnly = true;
             // 
             // btnClose
             // 

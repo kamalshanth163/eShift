@@ -26,11 +26,6 @@ namespace eShift.Forms.CustomerForms
         private Button btnCreateJob;
         private Button Cancel;
         private DataGridView dgvLoads;
-        private DataGridViewTextBoxColumn ProductCode;
-        private DataGridViewTextBoxColumn ProductName;
-        private DataGridViewTextBoxColumn Quantity;
-        private DataGridViewTextBoxColumn Weight;
-        private DataGridViewTextBoxColumn Instructions;
         private DataTable products;
 
         public NewJobForm(Customer customer)
@@ -185,11 +180,6 @@ namespace eShift.Forms.CustomerForms
             this.btnCreateJob = new System.Windows.Forms.Button();
             this.Cancel = new System.Windows.Forms.Button();
             this.dgvLoads = new System.Windows.Forms.DataGridView();
-            this.ProductCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ProductName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Weight = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Instructions = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numWeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLoads)).BeginInit();
@@ -256,7 +246,6 @@ namespace eShift.Forms.CustomerForms
             // 
             this.txtDestination.Location = new System.Drawing.Point(273, 133);
             this.txtDestination.Name = "txtDestination";
-            this.txtDestination.PasswordChar = '*';
             this.txtDestination.Size = new System.Drawing.Size(145, 20);
             this.txtDestination.TabIndex = 28;
             // 
@@ -323,7 +312,6 @@ namespace eShift.Forms.CustomerForms
             this.txtSpecialInstructions.Location = new System.Drawing.Point(107, 196);
             this.txtSpecialInstructions.Multiline = true;
             this.txtSpecialInstructions.Name = "txtSpecialInstructions";
-            this.txtSpecialInstructions.PasswordChar = '*';
             this.txtSpecialInstructions.Size = new System.Drawing.Size(311, 20);
             this.txtSpecialInstructions.TabIndex = 39;
             // 
@@ -353,47 +341,11 @@ namespace eShift.Forms.CustomerForms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvLoads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLoads.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ProductCode,
-            this.ProductName,
-            this.Quantity,
-            this.Weight,
-            this.Instructions});
             this.dgvLoads.Location = new System.Drawing.Point(107, 253);
             this.dgvLoads.Name = "dgvLoads";
             this.dgvLoads.ReadOnly = true;
             this.dgvLoads.Size = new System.Drawing.Size(718, 201);
             this.dgvLoads.TabIndex = 43;
-            // 
-            // ProductCode
-            // 
-            this.ProductCode.HeaderText = "Product Code";
-            this.ProductCode.Name = "ProductCode";
-            this.ProductCode.ReadOnly = true;
-            // 
-            // ProductName
-            // 
-            this.ProductName.HeaderText = "Product Name";
-            this.ProductName.Name = "ProductName";
-            this.ProductName.ReadOnly = true;
-            // 
-            // Quantity
-            // 
-            this.Quantity.HeaderText = "Quantity";
-            this.Quantity.Name = "Quantity";
-            this.Quantity.ReadOnly = true;
-            // 
-            // Weight
-            // 
-            this.Weight.HeaderText = "Weight";
-            this.Weight.Name = "Weight";
-            this.Weight.ReadOnly = true;
-            // 
-            // Instructions
-            // 
-            this.Instructions.HeaderText = "Instructions";
-            this.Instructions.Name = "Instructions";
-            this.Instructions.ReadOnly = true;
             // 
             // NewJobForm
             // 

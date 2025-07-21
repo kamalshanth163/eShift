@@ -201,8 +201,6 @@ namespace eShift.Forms.Shared
             // cmbReportType
             // 
             this.cmbReportType.FormattingEnabled = true;
-            this.cmbReportType.Items.AddRange(new object[] {
-            "[\"Customer\", \"Admin\"]"});
             this.cmbReportType.Location = new System.Drawing.Point(205, 123);
             this.cmbReportType.Name = "cmbReportType";
             this.cmbReportType.Size = new System.Drawing.Size(216, 21);

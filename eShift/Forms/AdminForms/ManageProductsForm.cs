@@ -11,10 +11,6 @@ namespace eShift.Forms.AdminForms
         private Button btnClose;
         private Button btnAddProduct;
         private Button btnDeleteProduct;
-        private DataGridViewTextBoxColumn Code;
-        private DataGridViewTextBoxColumn ProductName;
-        private DataGridViewTextBoxColumn Description;
-        private DataGridViewTextBoxColumn Fee;
         private Label lblTitle;
 
         public ManageProductsForm()
@@ -71,10 +67,6 @@ namespace eShift.Forms.AdminForms
         private void InitializeComponent()
         {
             this.dgvProducts = new System.Windows.Forms.DataGridView();
-            this.Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ProductName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fee = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnAddProduct = new System.Windows.Forms.Button();
             this.btnDeleteProduct = new System.Windows.Forms.Button();
@@ -87,40 +79,11 @@ namespace eShift.Forms.AdminForms
             this.dgvProducts.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvProducts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Code,
-            this.ProductName,
-            this.Description,
-            this.Fee});
             this.dgvProducts.Location = new System.Drawing.Point(119, 141);
             this.dgvProducts.Name = "dgvProducts";
             this.dgvProducts.ReadOnly = true;
             this.dgvProducts.Size = new System.Drawing.Size(718, 316);
             this.dgvProducts.TabIndex = 53;
-            // 
-            // Code
-            // 
-            this.Code.HeaderText = "Code";
-            this.Code.Name = "Code";
-            this.Code.ReadOnly = true;
-            // 
-            // ProductName
-            // 
-            this.ProductName.HeaderText = "Product Name";
-            this.ProductName.Name = "ProductName";
-            this.ProductName.ReadOnly = true;
-            // 
-            // Description
-            // 
-            this.Description.HeaderText = "Description";
-            this.Description.Name = "Description";
-            this.Description.ReadOnly = true;
-            // 
-            // Fee
-            // 
-            this.Fee.HeaderText = "Fee";
-            this.Fee.Name = "Fee";
-            this.Fee.ReadOnly = true;
             // 
             // btnClose
             // 

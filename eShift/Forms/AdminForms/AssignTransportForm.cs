@@ -16,10 +16,6 @@ namespace eShift.Forms.AdminForms
         private Label label1;
         private ComboBox cmbTransportUnit;
         private DataGridView dgvLoads;
-        private DataGridViewTextBoxColumn LoadNum;
-        private DataGridViewTextBoxColumn Product;
-        private DataGridViewTextBoxColumn Qty;
-        private DataGridViewTextBoxColumn Weight;
         private DataTable transportUnits;
 
         public AssignTransportForm(string jobNumber)
@@ -79,10 +75,6 @@ namespace eShift.Forms.AdminForms
             this.label1 = new System.Windows.Forms.Label();
             this.cmbTransportUnit = new System.Windows.Forms.ComboBox();
             this.dgvLoads = new System.Windows.Forms.DataGridView();
-            this.LoadNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Weight = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLoads)).BeginInit();
             this.SuspendLayout();
             // 
@@ -151,40 +143,11 @@ namespace eShift.Forms.AdminForms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvLoads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLoads.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.LoadNum,
-            this.Product,
-            this.Qty,
-            this.Weight});
             this.dgvLoads.Location = new System.Drawing.Point(120, 189);
             this.dgvLoads.Name = "dgvLoads";
             this.dgvLoads.ReadOnly = true;
             this.dgvLoads.Size = new System.Drawing.Size(718, 198);
             this.dgvLoads.TabIndex = 69;
-            // 
-            // LoadNum
-            // 
-            this.LoadNum.HeaderText = "Load Number";
-            this.LoadNum.Name = "LoadNum";
-            this.LoadNum.ReadOnly = true;
-            // 
-            // Product
-            // 
-            this.Product.HeaderText = "Product";
-            this.Product.Name = "Product";
-            this.Product.ReadOnly = true;
-            // 
-            // Qty
-            // 
-            this.Qty.HeaderText = "Qty";
-            this.Qty.Name = "Qty";
-            this.Qty.ReadOnly = true;
-            // 
-            // Weight
-            // 
-            this.Weight.HeaderText = "Weight";
-            this.Weight.Name = "Weight";
-            this.Weight.ReadOnly = true;
             // 
             // AssignTransportForm
             // 
