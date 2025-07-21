@@ -112,6 +112,9 @@
     <EmbeddedResource Include="Forms\AdminForms\AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\AssignTransportForm.resx">
+      <DependentUpon>AssignTransportForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminForms\ManageAdminsForm.resx">
       <DependentUpon>ManageAdminsForm.cs</DependentUpon>
     </EmbeddedResource>
