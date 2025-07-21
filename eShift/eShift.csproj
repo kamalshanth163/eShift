@@ -106,6 +106,9 @@
     <EmbeddedResource Include="Forms\AdminForms\AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AdminForms\ManageAdminsForm.resx">
+      <DependentUpon>ManageAdminsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CustomerForms\CustomerDashboard.resx">
       <DependentUpon>CustomerDashboard.cs</DependentUpon>
     </EmbeddedResource>
