@@ -125,17 +125,17 @@ namespace eShift.Forms.AdminForms
             this.btnGenerateReports = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dgvPendingJobs = new System.Windows.Forms.DataGridView();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dgvAllJobs = new System.Windows.Forms.DataGridView();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dgvTransportUnits = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPendingJobs)).BeginInit();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllJobs)).BeginInit();
+            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTransportUnits)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,23 +143,23 @@ namespace eShift.Forms.AdminForms
             // 
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcome.Location = new System.Drawing.Point(78, 126);
+            this.lblWelcome.Location = new System.Drawing.Point(82, 114);
             this.lblWelcome.Name = "lblWelcome";
             this.lblWelcome.Size = new System.Drawing.Size(0, 24);
             this.lblWelcome.TabIndex = 43;
             // 
             // btnManageAdmins
             // 
-            this.btnManageAdmins.Location = new System.Drawing.Point(454, 61);
+            this.btnManageAdmins.Location = new System.Drawing.Point(626, 141);
             this.btnManageAdmins.Name = "btnManageAdmins";
-            this.btnManageAdmins.Size = new System.Drawing.Size(101, 23);
+            this.btnManageAdmins.Size = new System.Drawing.Size(119, 23);
             this.btnManageAdmins.TabIndex = 41;
             this.btnManageAdmins.Text = "Manage Admins";
             this.btnManageAdmins.UseVisualStyleBackColor = true;
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(805, 61);
+            this.btnLogout.Location = new System.Drawing.Point(800, 61);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(75, 23);
             this.btnLogout.TabIndex = 40;
@@ -168,18 +168,18 @@ namespace eShift.Forms.AdminForms
             // 
             // btnProcessJob
             // 
-            this.btnProcessJob.Location = new System.Drawing.Point(274, 61);
+            this.btnProcessJob.Location = new System.Drawing.Point(515, 107);
             this.btnProcessJob.Name = "btnProcessJob";
-            this.btnProcessJob.Size = new System.Drawing.Size(75, 23);
+            this.btnProcessJob.Size = new System.Drawing.Size(101, 23);
             this.btnProcessJob.TabIndex = 39;
             this.btnProcessJob.Text = "Process Job";
             this.btnProcessJob.UseVisualStyleBackColor = true;
             // 
             // btnAssignTransport
             // 
-            this.btnAssignTransport.Location = new System.Drawing.Point(363, 61);
+            this.btnAssignTransport.Location = new System.Drawing.Point(626, 107);
             this.btnAssignTransport.Name = "btnAssignTransport";
-            this.btnAssignTransport.Size = new System.Drawing.Size(75, 23);
+            this.btnAssignTransport.Size = new System.Drawing.Size(119, 23);
             this.btnAssignTransport.TabIndex = 38;
             this.btnAssignTransport.Text = "Assign Transport";
             this.btnAssignTransport.UseVisualStyleBackColor = true;
@@ -188,7 +188,7 @@ namespace eShift.Forms.AdminForms
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(50, 58);
+            this.lblTitle.Location = new System.Drawing.Point(50, 55);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(177, 24);
             this.lblTitle.TabIndex = 37;
@@ -196,16 +196,16 @@ namespace eShift.Forms.AdminForms
             // 
             // btnManageProducts
             // 
-            this.btnManageProducts.Location = new System.Drawing.Point(561, 61);
+            this.btnManageProducts.Location = new System.Drawing.Point(755, 141);
             this.btnManageProducts.Name = "btnManageProducts";
-            this.btnManageProducts.Size = new System.Drawing.Size(101, 23);
+            this.btnManageProducts.Size = new System.Drawing.Size(124, 23);
             this.btnManageProducts.TabIndex = 44;
             this.btnManageProducts.Text = "Manage Products";
             this.btnManageProducts.UseVisualStyleBackColor = true;
             // 
             // btnGenerateReports
             // 
-            this.btnGenerateReports.Location = new System.Drawing.Point(668, 61);
+            this.btnGenerateReports.Location = new System.Drawing.Point(755, 107);
             this.btnGenerateReports.Name = "btnGenerateReports";
             this.btnGenerateReports.Size = new System.Drawing.Size(124, 23);
             this.btnGenerateReports.TabIndex = 45;
@@ -220,10 +220,10 @@ namespace eShift.Forms.AdminForms
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(54, 126);
+            this.tabControl1.Location = new System.Drawing.Point(54, 184);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(826, 328);
+            this.tabControl1.Size = new System.Drawing.Size(826, 287);
             this.tabControl1.TabIndex = 46;
             // 
             // tabPage1
@@ -232,10 +232,20 @@ namespace eShift.Forms.AdminForms
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(818, 302);
+            this.tabPage1.Size = new System.Drawing.Size(818, 261);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Pending Jobs";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // dgvPendingJobs
+            // 
+            this.dgvPendingJobs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPendingJobs.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvPendingJobs.Location = new System.Drawing.Point(3, 3);
+            this.dgvPendingJobs.Name = "dgvPendingJobs";
+            this.dgvPendingJobs.ReadOnly = true;
+            this.dgvPendingJobs.Size = new System.Drawing.Size(812, 255);
+            this.dgvPendingJobs.TabIndex = 36;
             // 
             // tabPage2
             // 
@@ -248,26 +258,6 @@ namespace eShift.Forms.AdminForms
             this.tabPage2.Text = "All Jobs";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.dgvTransportUnits);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(818, 302);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Transport Units";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // dgvPendingJobs
-            // 
-            this.dgvPendingJobs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPendingJobs.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvPendingJobs.Location = new System.Drawing.Point(3, 3);
-            this.dgvPendingJobs.Name = "dgvPendingJobs";
-            this.dgvPendingJobs.ReadOnly = true;
-            this.dgvPendingJobs.Size = new System.Drawing.Size(812, 296);
-            this.dgvPendingJobs.TabIndex = 36;
-            // 
             // dgvAllJobs
             // 
             this.dgvAllJobs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -277,6 +267,16 @@ namespace eShift.Forms.AdminForms
             this.dgvAllJobs.ReadOnly = true;
             this.dgvAllJobs.Size = new System.Drawing.Size(812, 296);
             this.dgvAllJobs.TabIndex = 37;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.dgvTransportUnits);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(818, 302);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Transport Units";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // dgvTransportUnits
             // 
@@ -306,10 +306,10 @@ namespace eShift.Forms.AdminForms
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPendingJobs)).EndInit();
+            this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllJobs)).EndInit();
+            this.tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTransportUnits)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
