@@ -82,52 +82,65 @@ namespace eShift.Forms.CustomerForms
             // 
             // btnNewJob
             // 
-            this.btnNewJob.Location = new System.Drawing.Point(469, 47);
+            this.btnNewJob.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnNewJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewJob.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnNewJob.Location = new System.Drawing.Point(93, 103);
             this.btnNewJob.Name = "btnNewJob";
-            this.btnNewJob.Size = new System.Drawing.Size(75, 23);
+            this.btnNewJob.Size = new System.Drawing.Size(127, 46);
             this.btnNewJob.TabIndex = 32;
             this.btnNewJob.Text = "New Job";
-            this.btnNewJob.UseVisualStyleBackColor = true;
+            this.btnNewJob.UseVisualStyleBackColor = false;
             this.btnNewJob.Click += new System.EventHandler(this.btnNewJob_Click);
             // 
             // btnViewLoads
             // 
-            this.btnViewLoads.Location = new System.Drawing.Point(568, 47);
+            this.btnViewLoads.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnViewLoads.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewLoads.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnViewLoads.Location = new System.Drawing.Point(269, 103);
             this.btnViewLoads.Name = "btnViewLoads";
-            this.btnViewLoads.Size = new System.Drawing.Size(75, 23);
+            this.btnViewLoads.Size = new System.Drawing.Size(174, 46);
             this.btnViewLoads.TabIndex = 31;
             this.btnViewLoads.Text = "View Loads";
-            this.btnViewLoads.UseVisualStyleBackColor = true;
+            this.btnViewLoads.UseVisualStyleBackColor = false;
             this.btnViewLoads.Click += new System.EventHandler(this.btnViewLoads_Click);
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(61, 44);
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblTitle.Location = new System.Drawing.Point(86, 29);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(206, 24);
+            this.lblTitle.Size = new System.Drawing.Size(417, 46);
             this.lblTitle.TabIndex = 26;
             this.lblTitle.Text = "Customer Dashboard";
             // 
             // btnUpdateProfile
             // 
-            this.btnUpdateProfile.Location = new System.Drawing.Point(667, 47);
+            this.btnUpdateProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnUpdateProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateProfile.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnUpdateProfile.Location = new System.Drawing.Point(492, 103);
             this.btnUpdateProfile.Name = "btnUpdateProfile";
-            this.btnUpdateProfile.Size = new System.Drawing.Size(124, 23);
+            this.btnUpdateProfile.Size = new System.Drawing.Size(203, 46);
             this.btnUpdateProfile.TabIndex = 34;
             this.btnUpdateProfile.Text = "Update Profile";
-            this.btnUpdateProfile.UseVisualStyleBackColor = true;
+            this.btnUpdateProfile.UseVisualStyleBackColor = false;
             this.btnUpdateProfile.Click += new System.EventHandler(this.btnUpdateProfile_Click);
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(821, 47);
+            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(17)))), ((int)(((byte)(27)))));
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnLogout.Location = new System.Drawing.Point(768, 32);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(75, 23);
+            this.btnLogout.Size = new System.Drawing.Size(135, 46);
             this.btnLogout.TabIndex = 33;
             this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // dgvJobs
@@ -135,10 +148,12 @@ namespace eShift.Forms.CustomerForms
             this.dgvJobs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvJobs.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dgvJobs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvJobs.Location = new System.Drawing.Point(93, 169);
             this.dgvJobs.Name = "dgvJobs";
             this.dgvJobs.ReadOnly = true;
+            this.dgvJobs.RowHeadersWidth = 51;
             this.dgvJobs.Size = new System.Drawing.Size(750, 270);
             this.dgvJobs.TabIndex = 35;
             // 
@@ -148,11 +163,12 @@ namespace eShift.Forms.CustomerForms
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.Location = new System.Drawing.Point(89, 112);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(0, 24);
+            this.lblWelcome.Size = new System.Drawing.Size(0, 29);
             this.lblWelcome.TabIndex = 36;
             // 
             // CustomerDashboard
             // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.dgvJobs);
