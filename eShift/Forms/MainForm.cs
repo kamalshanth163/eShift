@@ -92,9 +92,10 @@ namespace eShift.Forms
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(385, 355);
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(319, 355);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 23);
+            this.btnLogin.Size = new System.Drawing.Size(138, 53);
             this.btnLogin.TabIndex = 23;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -102,9 +103,10 @@ namespace eShift.Forms
             // 
             // btnRegister
             // 
+            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.Location = new System.Drawing.Point(484, 355);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(75, 23);
+            this.btnRegister.Size = new System.Drawing.Size(138, 53);
             this.btnRegister.TabIndex = 22;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = true;
@@ -115,7 +117,7 @@ namespace eShift.Forms
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(279, 241);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(55, 13);
+            this.label8.Size = new System.Drawing.Size(70, 16);
             this.label8.TabIndex = 21;
             this.label8.Text = "Username";
             // 
@@ -124,7 +126,7 @@ namespace eShift.Forms
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(280, 276);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 13);
+            this.label6.Size = new System.Drawing.Size(67, 16);
             this.label6.TabIndex = 20;
             this.label6.Text = "Password";
             // 
@@ -133,14 +135,14 @@ namespace eShift.Forms
             this.txtPassword.Location = new System.Drawing.Point(419, 271);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(238, 20);
+            this.txtPassword.Size = new System.Drawing.Size(238, 22);
             this.txtPassword.TabIndex = 19;
             // 
             // txtUsername
             // 
             this.txtUsername.Location = new System.Drawing.Point(419, 235);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(238, 20);
+            this.txtUsername.Size = new System.Drawing.Size(238, 22);
             this.txtUsername.TabIndex = 18;
             // 
             // lblTitle
@@ -149,7 +151,7 @@ namespace eShift.Forms
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.Location = new System.Drawing.Point(438, 98);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(62, 24);
+            this.lblTitle.Size = new System.Drawing.Size(78, 29);
             this.lblTitle.TabIndex = 17;
             this.lblTitle.Text = "Login";
             // 
@@ -161,7 +163,7 @@ namespace eShift.Forms
             "Admin"});
             this.cmbUserType.Location = new System.Drawing.Point(419, 187);
             this.cmbUserType.Name = "cmbUserType";
-            this.cmbUserType.Size = new System.Drawing.Size(238, 21);
+            this.cmbUserType.Size = new System.Drawing.Size(238, 24);
             this.cmbUserType.TabIndex = 24;
             // 
             // label1
@@ -169,12 +171,13 @@ namespace eShift.Forms
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(280, 190);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 13);
+            this.label1.Size = new System.Drawing.Size(39, 16);
             this.label1.TabIndex = 25;
             this.label1.Text = "Type";
             // 
             // MainForm
             // 
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbUserType);
