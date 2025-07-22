@@ -78,55 +78,68 @@ namespace eShift.Forms.AdminForms
             // 
             this.dgvAdmins.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvAdmins.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dgvAdmins.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAdmins.Location = new System.Drawing.Point(123, 138);
+            this.dgvAdmins.Location = new System.Drawing.Point(100, 184);
             this.dgvAdmins.Name = "dgvAdmins";
             this.dgvAdmins.ReadOnly = true;
-            this.dgvAdmins.Size = new System.Drawing.Size(718, 316);
+            this.dgvAdmins.RowHeadersWidth = 51;
+            this.dgvAdmins.Size = new System.Drawing.Size(718, 280);
             this.dgvAdmins.TabIndex = 48;
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(775, 60);
+            this.btnClose.BackColor = System.Drawing.Color.Black;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnClose.Location = new System.Drawing.Point(534, 116);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(135, 46);
             this.btnClose.TabIndex = 47;
             this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnAddAdmin
             // 
-            this.btnAddAdmin.Location = new System.Drawing.Point(509, 60);
+            this.btnAddAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnAddAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAdmin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAddAdmin.Location = new System.Drawing.Point(100, 116);
             this.btnAddAdmin.Name = "btnAddAdmin";
-            this.btnAddAdmin.Size = new System.Drawing.Size(104, 23);
+            this.btnAddAdmin.Size = new System.Drawing.Size(170, 46);
             this.btnAddAdmin.TabIndex = 46;
             this.btnAddAdmin.Text = "Add Admin";
-            this.btnAddAdmin.UseVisualStyleBackColor = true;
+            this.btnAddAdmin.UseVisualStyleBackColor = false;
             this.btnAddAdmin.Click += new System.EventHandler(this.btnAddAdmin_Click);
             // 
             // btnDeleteAdmin
             // 
-            this.btnDeleteAdmin.Location = new System.Drawing.Point(638, 60);
+            this.btnDeleteAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(17)))), ((int)(((byte)(27)))));
+            this.btnDeleteAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteAdmin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnDeleteAdmin.Location = new System.Drawing.Point(300, 116);
             this.btnDeleteAdmin.Name = "btnDeleteAdmin";
-            this.btnDeleteAdmin.Size = new System.Drawing.Size(112, 23);
+            this.btnDeleteAdmin.Size = new System.Drawing.Size(206, 46);
             this.btnDeleteAdmin.TabIndex = 45;
             this.btnDeleteAdmin.Text = "Delete Admin";
-            this.btnDeleteAdmin.UseVisualStyleBackColor = true;
+            this.btnDeleteAdmin.UseVisualStyleBackColor = false;
             this.btnDeleteAdmin.Click += new System.EventHandler(this.btnDeleteAdmin_Click);
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTitle.Location = new System.Drawing.Point(92, 51);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(161, 24);
+            this.lblTitle.Size = new System.Drawing.Size(320, 46);
             this.lblTitle.TabIndex = 44;
             this.lblTitle.Text = "Manage Admins";
             // 
             // ManageAdminsForm
             // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.dgvAdmins);
             this.Controls.Add(this.btnClose);
