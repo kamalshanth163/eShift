@@ -80,20 +80,25 @@ namespace eShift.Forms.AdminForms
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(510, 410);
+            this.btnClose.BackColor = System.Drawing.Color.Black;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnClose.Location = new System.Drawing.Point(510, 428);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(115, 53);
             this.btnClose.TabIndex = 65;
             this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnAssign
             // 
-            this.btnAssign.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnAssign.Location = new System.Drawing.Point(396, 410);
+            this.btnAssign.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnAssign.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAssign.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAssign.Location = new System.Drawing.Point(334, 428);
             this.btnAssign.Name = "btnAssign";
-            this.btnAssign.Size = new System.Drawing.Size(75, 23);
+            this.btnAssign.Size = new System.Drawing.Size(129, 53);
             this.btnAssign.TabIndex = 64;
             this.btnAssign.Text = "Assign";
             this.btnAssign.UseVisualStyleBackColor = false;
@@ -105,25 +110,28 @@ namespace eShift.Forms.AdminForms
             this.lblJobNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJobNumber.Location = new System.Drawing.Point(769, 94);
             this.lblJobNumber.Name = "lblJobNumber";
-            this.lblJobNumber.Size = new System.Drawing.Size(0, 24);
+            this.lblJobNumber.Size = new System.Drawing.Size(0, 29);
             this.lblJobNumber.TabIndex = 62;
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTitle.Location = new System.Drawing.Point(97, 75);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(210, 24);
+            this.lblTitle.Size = new System.Drawing.Size(424, 46);
             this.lblTitle.TabIndex = 60;
             this.lblTitle.Text = "Assign Transport Unit";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(257, 148);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(114, 160);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.Size = new System.Drawing.Size(219, 36);
             this.label1.TabIndex = 68;
             this.label1.Text = "Transport Unit";
             // 
@@ -132,9 +140,9 @@ namespace eShift.Forms.AdminForms
             this.cmbTransportUnit.FormattingEnabled = true;
             this.cmbTransportUnit.Items.AddRange(new object[] {
             "[\"Customer\", \"Admin\"]"});
-            this.cmbTransportUnit.Location = new System.Drawing.Point(396, 145);
+            this.cmbTransportUnit.Location = new System.Drawing.Point(353, 172);
             this.cmbTransportUnit.Name = "cmbTransportUnit";
-            this.cmbTransportUnit.Size = new System.Drawing.Size(238, 21);
+            this.cmbTransportUnit.Size = new System.Drawing.Size(238, 24);
             this.cmbTransportUnit.TabIndex = 67;
             // 
             // dgvLoads
@@ -142,15 +150,18 @@ namespace eShift.Forms.AdminForms
             this.dgvLoads.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvLoads.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dgvLoads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLoads.Location = new System.Drawing.Point(120, 189);
+            this.dgvLoads.Location = new System.Drawing.Point(120, 206);
             this.dgvLoads.Name = "dgvLoads";
             this.dgvLoads.ReadOnly = true;
+            this.dgvLoads.RowHeadersWidth = 51;
             this.dgvLoads.Size = new System.Drawing.Size(718, 198);
             this.dgvLoads.TabIndex = 69;
             // 
             // AssignTransportForm
             // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.dgvLoads);
             this.Controls.Add(this.label1);
