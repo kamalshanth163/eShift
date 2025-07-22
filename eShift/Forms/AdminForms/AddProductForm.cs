@@ -154,6 +154,7 @@ namespace eShift.Forms.AdminForms
             this.label1.Size = new System.Drawing.Size(347, 46);
             this.label1.TabIndex = 51;
             this.label1.Text = "Add New Product";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -202,6 +203,11 @@ namespace eShift.Forms.AdminForms
         }
 
         private void txtHandlingFee_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
