@@ -82,45 +82,55 @@ namespace eShift.Forms.AdminForms
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(496, 408);
+            this.btnCancel.BackColor = System.Drawing.Color.Black;
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnCancel.Location = new System.Drawing.Point(526, 360);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(117, 48);
             this.btnCancel.TabIndex = 57;
             this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.UseVisualStyleBackColor = false;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(396, 408);
+            this.btnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSave.Location = new System.Drawing.Point(344, 360);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(138, 48);
             this.btnSave.TabIndex = 56;
             this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(279, 254);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label8.Location = new System.Drawing.Point(279, 233);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 13);
+            this.label8.Size = new System.Drawing.Size(146, 29);
             this.label8.TabIndex = 55;
             this.label8.Text = "Description";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(277, 206);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(279, 185);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(82, 29);
             this.label2.TabIndex = 54;
             this.label2.Text = "Name";
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(420, 247);
+            this.txtDescription.Location = new System.Drawing.Point(468, 240);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(238, 20);
@@ -128,39 +138,45 @@ namespace eShift.Forms.AdminForms
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(420, 203);
+            this.txtName.Location = new System.Drawing.Point(468, 192);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(238, 20);
+            this.txtName.Size = new System.Drawing.Size(238, 22);
             this.txtName.TabIndex = 52;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(392, 80);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(296, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(174, 24);
+            this.label1.Size = new System.Drawing.Size(347, 46);
             this.label1.TabIndex = 51;
             this.label1.Text = "Add New Product";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(279, 301);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(279, 280);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.Size = new System.Drawing.Size(170, 29);
             this.label3.TabIndex = 59;
             this.label3.Text = "Handling Fee";
             // 
             // txtHandlingFee
             // 
-            this.txtHandlingFee.Location = new System.Drawing.Point(420, 294);
+            this.txtHandlingFee.Location = new System.Drawing.Point(468, 287);
             this.txtHandlingFee.Name = "txtHandlingFee";
-            this.txtHandlingFee.Size = new System.Drawing.Size(238, 20);
+            this.txtHandlingFee.Size = new System.Drawing.Size(238, 22);
             this.txtHandlingFee.TabIndex = 58;
+            this.txtHandlingFee.TextChanged += new System.EventHandler(this.txtHandlingFee_TextChanged);
             // 
             // AddProductForm
             // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtHandlingFee);
@@ -177,6 +193,16 @@ namespace eShift.Forms.AdminForms
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
+
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtHandlingFee_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
