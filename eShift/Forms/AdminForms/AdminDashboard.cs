@@ -145,77 +145,96 @@ namespace eShift.Forms.AdminForms
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWelcome.Location = new System.Drawing.Point(82, 114);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(0, 24);
+            this.lblWelcome.Size = new System.Drawing.Size(0, 29);
             this.lblWelcome.TabIndex = 43;
             // 
             // btnManageAdmins
             // 
-            this.btnManageAdmins.Location = new System.Drawing.Point(626, 141);
+            this.btnManageAdmins.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnManageAdmins.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManageAdmins.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnManageAdmins.Location = new System.Drawing.Point(198, 162);
             this.btnManageAdmins.Name = "btnManageAdmins";
-            this.btnManageAdmins.Size = new System.Drawing.Size(119, 23);
+            this.btnManageAdmins.Size = new System.Drawing.Size(209, 41);
             this.btnManageAdmins.TabIndex = 41;
             this.btnManageAdmins.Text = "Manage Admins";
-            this.btnManageAdmins.UseVisualStyleBackColor = true;
+            this.btnManageAdmins.UseVisualStyleBackColor = false;
             this.btnManageAdmins.Click += new System.EventHandler(this.btnManageAdmins_Click);
             // 
             // btnLogout
             // 
-            this.btnLogout.Location = new System.Drawing.Point(800, 61);
+            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(17)))), ((int)(((byte)(27)))));
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnLogout.Location = new System.Drawing.Point(797, 30);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(75, 23);
+            this.btnLogout.Size = new System.Drawing.Size(111, 40);
             this.btnLogout.TabIndex = 40;
             this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnProcessJob
             // 
-            this.btnProcessJob.Location = new System.Drawing.Point(515, 107);
+            this.btnProcessJob.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnProcessJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProcessJob.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnProcessJob.Location = new System.Drawing.Point(54, 88);
             this.btnProcessJob.Name = "btnProcessJob";
-            this.btnProcessJob.Size = new System.Drawing.Size(101, 23);
+            this.btnProcessJob.Size = new System.Drawing.Size(194, 46);
             this.btnProcessJob.TabIndex = 39;
             this.btnProcessJob.Text = "Process Job";
-            this.btnProcessJob.UseVisualStyleBackColor = true;
+            this.btnProcessJob.UseVisualStyleBackColor = false;
             this.btnProcessJob.Click += new System.EventHandler(this.btnProcessJob_Click);
             // 
             // btnAssignTransport
             // 
-            this.btnAssignTransport.Location = new System.Drawing.Point(626, 107);
+            this.btnAssignTransport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnAssignTransport.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAssignTransport.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAssignTransport.Location = new System.Drawing.Point(272, 88);
             this.btnAssignTransport.Name = "btnAssignTransport";
-            this.btnAssignTransport.Size = new System.Drawing.Size(119, 23);
+            this.btnAssignTransport.Size = new System.Drawing.Size(228, 46);
             this.btnAssignTransport.TabIndex = 38;
             this.btnAssignTransport.Text = "Assign Transport";
-            this.btnAssignTransport.UseVisualStyleBackColor = true;
+            this.btnAssignTransport.UseVisualStyleBackColor = false;
             this.btnAssignTransport.Click += new System.EventHandler(this.btnAssignTransport_Click);
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(50, 55);
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblTitle.Location = new System.Drawing.Point(53, 24);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(177, 24);
+            this.lblTitle.Size = new System.Drawing.Size(354, 46);
             this.lblTitle.TabIndex = 37;
             this.lblTitle.Text = "Admin Dashboard";
             // 
             // btnManageProducts
             // 
-            this.btnManageProducts.Location = new System.Drawing.Point(755, 141);
+            this.btnManageProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnManageProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnManageProducts.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnManageProducts.Location = new System.Drawing.Point(462, 162);
             this.btnManageProducts.Name = "btnManageProducts";
-            this.btnManageProducts.Size = new System.Drawing.Size(124, 23);
+            this.btnManageProducts.Size = new System.Drawing.Size(227, 41);
             this.btnManageProducts.TabIndex = 44;
             this.btnManageProducts.Text = "Manage Products";
-            this.btnManageProducts.UseVisualStyleBackColor = true;
+            this.btnManageProducts.UseVisualStyleBackColor = false;
             this.btnManageProducts.Click += new System.EventHandler(this.btnManageProducts_Click);
             // 
             // btnGenerateReports
             // 
-            this.btnGenerateReports.Location = new System.Drawing.Point(755, 107);
+            this.btnGenerateReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.btnGenerateReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerateReports.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnGenerateReports.Location = new System.Drawing.Point(526, 88);
             this.btnGenerateReports.Name = "btnGenerateReports";
-            this.btnGenerateReports.Size = new System.Drawing.Size(124, 23);
+            this.btnGenerateReports.Size = new System.Drawing.Size(228, 46);
             this.btnGenerateReports.TabIndex = 45;
             this.btnGenerateReports.Text = "Generate Reports";
-            this.btnGenerateReports.UseVisualStyleBackColor = true;
+            this.btnGenerateReports.UseVisualStyleBackColor = false;
             this.btnGenerateReports.Click += new System.EventHandler(this.btnGenerateReports_Click);
             // 
             // tabControl1
@@ -226,40 +245,42 @@ namespace eShift.Forms.AdminForms
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(54, 184);
+            this.tabControl1.Location = new System.Drawing.Point(54, 226);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(826, 287);
+            this.tabControl1.Size = new System.Drawing.Size(826, 273);
             this.tabControl1.TabIndex = 46;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.dgvPendingJobs);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(818, 261);
+            this.tabPage1.Size = new System.Drawing.Size(818, 244);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Pending Jobs";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // dgvPendingJobs
             // 
+            this.dgvPendingJobs.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dgvPendingJobs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPendingJobs.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvPendingJobs.Location = new System.Drawing.Point(3, 3);
             this.dgvPendingJobs.Name = "dgvPendingJobs";
             this.dgvPendingJobs.ReadOnly = true;
-            this.dgvPendingJobs.Size = new System.Drawing.Size(812, 255);
+            this.dgvPendingJobs.RowHeadersWidth = 51;
+            this.dgvPendingJobs.Size = new System.Drawing.Size(812, 238);
             this.dgvPendingJobs.TabIndex = 36;
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.dgvAllJobs);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(818, 261);
+            this.tabPage2.Size = new System.Drawing.Size(818, 258);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "All Jobs";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -271,15 +292,16 @@ namespace eShift.Forms.AdminForms
             this.dgvAllJobs.Location = new System.Drawing.Point(3, 3);
             this.dgvAllJobs.Name = "dgvAllJobs";
             this.dgvAllJobs.ReadOnly = true;
-            this.dgvAllJobs.Size = new System.Drawing.Size(812, 255);
+            this.dgvAllJobs.RowHeadersWidth = 51;
+            this.dgvAllJobs.Size = new System.Drawing.Size(812, 252);
             this.dgvAllJobs.TabIndex = 37;
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.dgvTransportUnits);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(818, 261);
+            this.tabPage3.Size = new System.Drawing.Size(818, 258);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Transport Units";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -291,11 +313,13 @@ namespace eShift.Forms.AdminForms
             this.dgvTransportUnits.Location = new System.Drawing.Point(0, 0);
             this.dgvTransportUnits.Name = "dgvTransportUnits";
             this.dgvTransportUnits.ReadOnly = true;
-            this.dgvTransportUnits.Size = new System.Drawing.Size(818, 261);
+            this.dgvTransportUnits.RowHeadersWidth = 51;
+            this.dgvTransportUnits.Size = new System.Drawing.Size(818, 258);
             this.dgvTransportUnits.TabIndex = 37;
             // 
             // AdminDashboard
             // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btnGenerateReports);
