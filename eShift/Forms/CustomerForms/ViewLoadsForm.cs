@@ -54,30 +54,37 @@ namespace eShift.Forms.CustomerForms
             this.dgvLoads.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvLoads.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dgvLoads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLoads.Location = new System.Drawing.Point(123, 190);
+            this.dgvLoads.Location = new System.Drawing.Point(123, 157);
             this.dgvLoads.Name = "dgvLoads";
             this.dgvLoads.ReadOnly = true;
+            this.dgvLoads.RowHeadersWidth = 51;
             this.dgvLoads.Size = new System.Drawing.Size(718, 269);
             this.dgvLoads.TabIndex = 46;
+            this.dgvLoads.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLoads_CellContentClick);
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(766, 65);
+            this.btnClose.BackColor = System.Drawing.Color.Black;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnClose.Location = new System.Drawing.Point(706, 64);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(135, 50);
             this.btnClose.TabIndex = 45;
             this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTitle.Location = new System.Drawing.Point(92, 51);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(118, 24);
+            this.lblTitle.Size = new System.Drawing.Size(237, 46);
             this.lblTitle.TabIndex = 44;
             this.lblTitle.Text = "View Loads";
             // 
@@ -87,11 +94,12 @@ namespace eShift.Forms.CustomerForms
             this.lblJobNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJobNumber.Location = new System.Drawing.Point(122, 125);
             this.lblJobNumber.Name = "lblJobNumber";
-            this.lblJobNumber.Size = new System.Drawing.Size(0, 24);
+            this.lblJobNumber.Size = new System.Drawing.Size(0, 29);
             this.lblJobNumber.TabIndex = 47;
             // 
             // ViewLoadsForm
             // 
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(181)))), ((int)(((byte)(77)))));
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.lblJobNumber);
             this.Controls.Add(this.dgvLoads);
@@ -104,6 +112,11 @@ namespace eShift.Forms.CustomerForms
             ((System.ComponentModel.ISupportInitialize)(this.dgvLoads)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
+        }
+
+        private void dgvLoads_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }
