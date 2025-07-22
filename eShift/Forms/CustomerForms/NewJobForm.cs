@@ -355,7 +355,7 @@ namespace eShift.Forms.CustomerForms
             // 
             // Cancel
             // 
-            this.Cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
+            this.Cancel.BackColor = System.Drawing.Color.Black;
             this.Cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Cancel.Location = new System.Drawing.Point(657, 231);
