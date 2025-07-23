@@ -171,7 +171,7 @@ namespace eShift.Forms
             // cmbUserType
             // 
             this.cmbUserType.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.cmbUserType.DropDownWidth = 400;
+            this.cmbUserType.DropDownWidth = 200;
             this.cmbUserType.FormattingEnabled = true;
             this.cmbUserType.IntegralHeight = false;
             this.cmbUserType.ItemHeight = 16;
