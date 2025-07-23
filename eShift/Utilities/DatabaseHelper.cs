@@ -4,44 +4,58 @@ using System.Data.SqlClient;
 
 namespace eShift.Utilities
 {
-    public class DatabaseHelper
+    public static class DatabaseHelper
     {
-        private static string connectionString = ConfigurationManager.ConnectionStrings["eShiftDB"].ConnectionString;
+        private static readonly string connectionString = ConfigurationManager.ConnectionStrings["eShiftDB"].ConnectionString;
 
-        public static DataTable ExecuteQuery(string query)
+        public static DataTable ExecuteQuery(string query, SqlParameter[] parameters = null)
         {
             DataTable dt = new DataTable();
             using (SqlConnection conn = new SqlConnection(connectionString))
+            using (SqlCommand cmd = new SqlCommand(query, conn))
             {
-                SqlCommand cmd = new SqlCommand(query, conn);
+                if (parameters != null)
+                    cmd.Parameters.AddRange(parameters);
+
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
             }
             return dt;
         }
 
-        public static int ExecuteNonQuery(string query)
+        public static int ExecuteNonQuery(string query, SqlParameter[] parameters = null)
         {
-            int rowsAffected = 0;
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand(query, conn);
-                rowsAffected = cmd.ExecuteNonQuery();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+
+                    return cmd.ExecuteNonQuery();
+                }
             }
-            return rowsAffected;
         }
 
-        public static object ExecuteScalar(string query)
+        public static object ExecuteScalar(string query, SqlParameter[] parameters = null)
         {
-            object result = null;
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand(query, conn);
-                result = cmd.ExecuteScalar();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+
+                    return cmd.ExecuteScalar();
+                }
             }
-            return result;
+        }
+
+        public static SqlConnection GetConnection()
+        {
+            return new SqlConnection(connectionString);
         }
     }
 }

@@ -57,6 +57,12 @@ CREATE TABLE Loads (
     FOREIGN KEY (TransportUnitId) REFERENCES TransportUnits(TransportUnitId)
 );
 
--- Insert initial admin account
+-- Insert Admins
 INSERT INTO Admins (AdminId, Name, Username, Password) 
 VALUES ('ADMIN001', 'Admin', 'admin', 'password');
+
+-- Insert TransportUnits
+INSERT INTO TransportUnits (TransportUnitId, LorryNumber, DriverName, DriverLicense, AssistantName, ContainerNumber, Status)
+VALUES 
+('TU001', 'L1234ABC', 'Nathan', 'DL12345678', 'Wilson', 'CNTR1234567', 'Available'),
+('TU002', 'L5678XYZ', 'David', 'DL87654321', 'Mike', 'CNTR7654321', 'Available');
