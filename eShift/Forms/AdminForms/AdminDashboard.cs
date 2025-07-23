@@ -34,18 +34,69 @@ namespace eShift.Forms.AdminForms
             LoadPendingJobs();
             LoadAllJobs();
             LoadTransportUnits();
+
+            // Format Total fee as currency
+            dgvAllJobs.CellFormatting += DgvJobs_CellFormatting;
+            dgvPendingJobs.CellFormatting += DgvJobs_CellFormatting;
         }
 
         private void LoadPendingJobs()
         {
-            DataTable dt = DatabaseHelper.ExecuteQuery("SELECT j.*, c.Name AS CustomerName FROM Jobs j INNER JOIN Customers c ON j.CustomerNumber = c.CustomerNumber WHERE j.Status = 'Pending'");
+            string query = @"
+                SELECT 
+                    j.JobNumber,
+                    j.CustomerNumber,
+                    j.RequestDate,
+                    j.StartLocation,
+                    j.Destination,
+                    j.Status,
+                    j.AdminRemarks,
+                    c.Name AS CustomerName,
+                    ISNULL(SUM(l.Weight), 0) AS TotalWeight,
+                    ISNULL(SUM(l.Weight * p.HandlingFee), 0) AS HandlingFee,
+                    ISNULL(SUM(l.Quantity * p.HandlingFee), 0) AS [Total fee]
+                FROM Jobs j
+                INNER JOIN Customers c ON j.CustomerNumber = c.CustomerNumber
+                LEFT JOIN Loads l ON l.JobNumber = j.JobNumber
+                LEFT JOIN Products p ON l.ProductCode = p.ProductCode
+                WHERE j.Status = 'Pending'
+                GROUP BY 
+                    j.JobNumber, j.CustomerNumber, j.RequestDate, j.StartLocation, 
+                    j.Destination, j.Status, j.AdminRemarks, c.Name
+            ";
+            DataTable dt = DatabaseHelper.ExecuteQuery(query);
             dgvPendingJobs.DataSource = dt;
+            if (dgvPendingJobs.Columns.Contains("Total fee"))
+                dgvPendingJobs.Columns["Total fee"].HeaderText = "Total Fee";
         }
 
         private void LoadAllJobs()
         {
-            DataTable dt = Job.GetAllJobs();
+            string query = @"
+                SELECT 
+                    j.JobNumber,
+                    j.CustomerNumber,
+                    j.RequestDate,
+                    j.StartLocation,
+                    j.Destination,
+                    j.Status,
+                    j.AdminRemarks,
+                    c.Name AS CustomerName,
+                    ISNULL(SUM(l.Weight), 0) AS TotalWeight,
+                    ISNULL(SUM(l.Weight * p.HandlingFee), 0) AS HandlingFee,
+                    ISNULL(SUM(l.Quantity * p.HandlingFee), 0) AS [Total fee]
+                FROM Jobs j
+                INNER JOIN Customers c ON j.CustomerNumber = c.CustomerNumber
+                LEFT JOIN Loads l ON l.JobNumber = j.JobNumber
+                LEFT JOIN Products p ON l.ProductCode = p.ProductCode
+                GROUP BY 
+                    j.JobNumber, j.CustomerNumber, j.RequestDate, j.StartLocation, 
+                    j.Destination, j.Status, j.AdminRemarks, c.Name
+            ";
+            DataTable dt = DatabaseHelper.ExecuteQuery(query);
             dgvAllJobs.DataSource = dt;
+            if (dgvAllJobs.Columns.Contains("Total fee"))
+                dgvAllJobs.Columns["Total fee"].HeaderText = "Total Fee";
         }
 
         private void LoadTransportUnits()
@@ -111,6 +162,16 @@ namespace eShift.Forms.AdminForms
             MainForm mainForm = new MainForm();
             mainForm.Show();
             this.Close();
+        }
+
+        private void DgvJobs_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            var dgv = sender as DataGridView;
+            if (dgv.Columns[e.ColumnIndex].Name == "Total fee" && e.Value != null && e.Value is decimal)
+            {
+                e.Value = string.Format("{0:C2}", e.Value);
+                e.FormattingApplied = true;
+            }
         }
 
         private void InitializeComponent()
