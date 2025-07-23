@@ -108,9 +108,9 @@ namespace eShift.Forms.AdminForms
             // 
             this.lblJobNumber.AutoSize = true;
             this.lblJobNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJobNumber.Location = new System.Drawing.Point(769, 94);
+            this.lblJobNumber.Location = new System.Drawing.Point(506, 84);
             this.lblJobNumber.Name = "lblJobNumber";
-            this.lblJobNumber.Size = new System.Drawing.Size(0, 29);
+            this.lblJobNumber.Size = new System.Drawing.Size(0, 24);
             this.lblJobNumber.TabIndex = 62;
             // 
             // lblTitle
@@ -118,9 +118,9 @@ namespace eShift.Forms.AdminForms
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTitle.Location = new System.Drawing.Point(97, 75);
+            this.lblTitle.Location = new System.Drawing.Point(75, 76);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(424, 46);
+            this.lblTitle.Size = new System.Drawing.Size(349, 37);
             this.lblTitle.TabIndex = 60;
             this.lblTitle.Text = "Assign Transport Unit";
             // 
@@ -131,7 +131,7 @@ namespace eShift.Forms.AdminForms
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(114, 160);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 36);
+            this.label1.Size = new System.Drawing.Size(179, 29);
             this.label1.TabIndex = 68;
             this.label1.Text = "Transport Unit";
             // 
@@ -142,7 +142,7 @@ namespace eShift.Forms.AdminForms
             "[\"Customer\", \"Admin\"]"});
             this.cmbTransportUnit.Location = new System.Drawing.Point(353, 172);
             this.cmbTransportUnit.Name = "cmbTransportUnit";
-            this.cmbTransportUnit.Size = new System.Drawing.Size(238, 24);
+            this.cmbTransportUnit.Size = new System.Drawing.Size(238, 21);
             this.cmbTransportUnit.TabIndex = 67;
             // 
             // dgvLoads

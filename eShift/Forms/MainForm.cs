@@ -95,7 +95,7 @@ namespace eShift.Forms
             // 
             this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(352, 364);
+            this.btnLogin.Location = new System.Drawing.Point(305, 364);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(138, 53);
             this.btnLogin.TabIndex = 23;
@@ -108,7 +108,7 @@ namespace eShift.Forms
             this.btnRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.White;
-            this.btnRegister.Location = new System.Drawing.Point(538, 364);
+            this.btnRegister.Location = new System.Drawing.Point(491, 364);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(138, 53);
             this.btnRegister.TabIndex = 22;
@@ -122,9 +122,9 @@ namespace eShift.Forms
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(279, 241);
+            this.label8.Location = new System.Drawing.Point(232, 228);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(158, 36);
+            this.label8.Size = new System.Drawing.Size(132, 29);
             this.label8.TabIndex = 21;
             this.label8.Text = "Username";
             // 
@@ -134,26 +134,26 @@ namespace eShift.Forms
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(280, 289);
+            this.label6.Location = new System.Drawing.Point(233, 276);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(155, 36);
+            this.label6.Size = new System.Drawing.Size(128, 29);
             this.label6.TabIndex = 20;
             this.label6.Text = "Password";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(462, 302);
+            this.txtPassword.Location = new System.Drawing.Point(415, 289);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(289, 22);
+            this.txtPassword.Size = new System.Drawing.Size(289, 20);
             this.txtPassword.TabIndex = 19;
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(462, 254);
+            this.txtUsername.Location = new System.Drawing.Point(415, 241);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(289, 22);
+            this.txtUsername.Size = new System.Drawing.Size(289, 20);
             this.txtUsername.TabIndex = 18;
             // 
             // lblTitle
@@ -162,9 +162,9 @@ namespace eShift.Forms
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTitle.Location = new System.Drawing.Point(435, 75);
+            this.lblTitle.Location = new System.Drawing.Point(388, 75);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(142, 54);
+            this.lblTitle.Size = new System.Drawing.Size(117, 44);
             this.lblTitle.TabIndex = 17;
             this.lblTitle.Text = "Login";
             // 
@@ -174,13 +174,13 @@ namespace eShift.Forms
             this.cmbUserType.DropDownWidth = 200;
             this.cmbUserType.FormattingEnabled = true;
             this.cmbUserType.IntegralHeight = false;
-            this.cmbUserType.ItemHeight = 16;
+            this.cmbUserType.ItemHeight = 13;
             this.cmbUserType.Items.AddRange(new object[] {
             "Customer",
             "Admin"});
-            this.cmbUserType.Location = new System.Drawing.Point(462, 202);
+            this.cmbUserType.Location = new System.Drawing.Point(415, 189);
             this.cmbUserType.Name = "cmbUserType";
-            this.cmbUserType.Size = new System.Drawing.Size(289, 24);
+            this.cmbUserType.Size = new System.Drawing.Size(289, 21);
             this.cmbUserType.TabIndex = 24;
             // 
             // label1
@@ -189,9 +189,9 @@ namespace eShift.Forms
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(280, 190);
+            this.label1.Location = new System.Drawing.Point(233, 177);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 36);
+            this.label1.Size = new System.Drawing.Size(72, 29);
             this.label1.TabIndex = 25;
             this.label1.Text = "Type";
             this.label1.Click += new System.EventHandler(this.label1_Click);

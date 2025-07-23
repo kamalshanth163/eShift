@@ -123,7 +123,7 @@ namespace eShift.Forms.CustomerForms
             this.btnCancel.BackColor = System.Drawing.Color.Black;
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCancel.Location = new System.Drawing.Point(537, 405);
+            this.btnCancel.Location = new System.Drawing.Point(478, 404);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(155, 50);
             this.btnCancel.TabIndex = 33;
@@ -136,7 +136,7 @@ namespace eShift.Forms.CustomerForms
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnUpdate.Location = new System.Drawing.Point(344, 405);
+            this.btnUpdate.Location = new System.Drawing.Point(285, 404);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(155, 50);
             this.btnUpdate.TabIndex = 32;
@@ -149,9 +149,9 @@ namespace eShift.Forms.CustomerForms
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(279, 338);
+            this.label8.Location = new System.Drawing.Point(220, 337);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(132, 29);
+            this.label8.Size = new System.Drawing.Size(105, 24);
             this.label8.TabIndex = 31;
             this.label8.Text = "Username";
             // 
@@ -160,9 +160,9 @@ namespace eShift.Forms.CustomerForms
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(279, 301);
+            this.label5.Location = new System.Drawing.Point(220, 300);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 29);
+            this.label5.Size = new System.Drawing.Size(62, 24);
             this.label5.TabIndex = 28;
             this.label5.Text = "Email";
             // 
@@ -171,9 +171,9 @@ namespace eShift.Forms.CustomerForms
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(278, 261);
+            this.label4.Location = new System.Drawing.Point(219, 260);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 29);
+            this.label4.Size = new System.Drawing.Size(71, 24);
             this.label4.TabIndex = 27;
             this.label4.Text = "Phone";
             // 
@@ -182,9 +182,9 @@ namespace eShift.Forms.CustomerForms
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(278, 219);
+            this.label3.Location = new System.Drawing.Point(219, 218);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 29);
+            this.label3.Size = new System.Drawing.Size(87, 24);
             this.label3.TabIndex = 26;
             this.label3.Text = "Address";
             // 
@@ -193,36 +193,36 @@ namespace eShift.Forms.CustomerForms
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(277, 176);
+            this.label2.Location = new System.Drawing.Point(218, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 29);
+            this.label2.Size = new System.Drawing.Size(65, 24);
             this.label2.TabIndex = 25;
             this.label2.Text = "Name";
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(527, 345);
+            this.txtUsername.Location = new System.Drawing.Point(468, 344);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(238, 22);
+            this.txtUsername.Size = new System.Drawing.Size(238, 20);
             this.txtUsername.TabIndex = 22;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(527, 308);
+            this.txtEmail.Location = new System.Drawing.Point(468, 307);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(238, 22);
+            this.txtEmail.Size = new System.Drawing.Size(238, 20);
             this.txtEmail.TabIndex = 21;
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(527, 267);
+            this.txtPhone.Location = new System.Drawing.Point(468, 266);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(238, 22);
+            this.txtPhone.Size = new System.Drawing.Size(238, 20);
             this.txtPhone.TabIndex = 20;
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(527, 226);
+            this.txtAddress.Location = new System.Drawing.Point(468, 225);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(238, 20);
@@ -230,9 +230,9 @@ namespace eShift.Forms.CustomerForms
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(527, 183);
+            this.txtName.Location = new System.Drawing.Point(468, 182);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(238, 22);
+            this.txtName.Size = new System.Drawing.Size(238, 20);
             this.txtName.TabIndex = 18;
             // 
             // label1
@@ -242,7 +242,7 @@ namespace eShift.Forms.CustomerForms
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(336, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(287, 46);
+            this.label1.Size = new System.Drawing.Size(233, 37);
             this.label1.TabIndex = 17;
             this.label1.Text = "Update Profile";
             // 
@@ -251,18 +251,18 @@ namespace eShift.Forms.CustomerForms
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.Location = new System.Drawing.Point(277, 135);
+            this.label6.Location = new System.Drawing.Point(218, 134);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(225, 29);
+            this.label6.Size = new System.Drawing.Size(180, 24);
             this.label6.TabIndex = 35;
             this.label6.Text = "Customer Number";
             // 
             // txtCustomerNumber
             // 
-            this.txtCustomerNumber.Location = new System.Drawing.Point(527, 142);
+            this.txtCustomerNumber.Location = new System.Drawing.Point(468, 141);
             this.txtCustomerNumber.Name = "txtCustomerNumber";
             this.txtCustomerNumber.ReadOnly = true;
-            this.txtCustomerNumber.Size = new System.Drawing.Size(238, 22);
+            this.txtCustomerNumber.Size = new System.Drawing.Size(238, 20);
             this.txtCustomerNumber.TabIndex = 34;
             // 
             // CustomerProfileForm

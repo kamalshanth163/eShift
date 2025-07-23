@@ -143,9 +143,9 @@ namespace eShift.Forms.AdminForms
             // 
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcome.Location = new System.Drawing.Point(82, 114);
+            this.lblWelcome.Location = new System.Drawing.Point(56, 87);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(0, 29);
+            this.lblWelcome.Size = new System.Drawing.Size(0, 24);
             this.lblWelcome.TabIndex = 43;
             // 
             // btnManageAdmins
@@ -153,9 +153,9 @@ namespace eShift.Forms.AdminForms
             this.btnManageAdmins.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnManageAdmins.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnManageAdmins.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnManageAdmins.Location = new System.Drawing.Point(198, 162);
+            this.btnManageAdmins.Location = new System.Drawing.Point(446, 99);
             this.btnManageAdmins.Name = "btnManageAdmins";
-            this.btnManageAdmins.Size = new System.Drawing.Size(209, 41);
+            this.btnManageAdmins.Size = new System.Drawing.Size(228, 41);
             this.btnManageAdmins.TabIndex = 41;
             this.btnManageAdmins.Text = "Manage Admins";
             this.btnManageAdmins.UseVisualStyleBackColor = false;
@@ -179,7 +179,7 @@ namespace eShift.Forms.AdminForms
             this.btnProcessJob.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnProcessJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProcessJob.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnProcessJob.Location = new System.Drawing.Point(54, 88);
+            this.btnProcessJob.Location = new System.Drawing.Point(246, 145);
             this.btnProcessJob.Name = "btnProcessJob";
             this.btnProcessJob.Size = new System.Drawing.Size(194, 46);
             this.btnProcessJob.TabIndex = 39;
@@ -192,7 +192,7 @@ namespace eShift.Forms.AdminForms
             this.btnAssignTransport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnAssignTransport.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAssignTransport.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAssignTransport.Location = new System.Drawing.Point(272, 88);
+            this.btnAssignTransport.Location = new System.Drawing.Point(446, 146);
             this.btnAssignTransport.Name = "btnAssignTransport";
             this.btnAssignTransport.Size = new System.Drawing.Size(228, 46);
             this.btnAssignTransport.TabIndex = 38;
@@ -205,9 +205,9 @@ namespace eShift.Forms.AdminForms
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTitle.Location = new System.Drawing.Point(53, 24);
+            this.lblTitle.Location = new System.Drawing.Point(44, 25);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(354, 46);
+            this.lblTitle.Size = new System.Drawing.Size(291, 37);
             this.lblTitle.TabIndex = 37;
             this.lblTitle.Text = "Admin Dashboard";
             // 
@@ -216,7 +216,7 @@ namespace eShift.Forms.AdminForms
             this.btnManageProducts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnManageProducts.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnManageProducts.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnManageProducts.Location = new System.Drawing.Point(462, 162);
+            this.btnManageProducts.Location = new System.Drawing.Point(680, 99);
             this.btnManageProducts.Name = "btnManageProducts";
             this.btnManageProducts.Size = new System.Drawing.Size(227, 41);
             this.btnManageProducts.TabIndex = 44;
@@ -229,7 +229,7 @@ namespace eShift.Forms.AdminForms
             this.btnGenerateReports.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnGenerateReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerateReports.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnGenerateReports.Location = new System.Drawing.Point(526, 88);
+            this.btnGenerateReports.Location = new System.Drawing.Point(680, 145);
             this.btnGenerateReports.Name = "btnGenerateReports";
             this.btnGenerateReports.Size = new System.Drawing.Size(228, 46);
             this.btnGenerateReports.TabIndex = 45;
@@ -245,7 +245,7 @@ namespace eShift.Forms.AdminForms
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(54, 226);
+            this.tabControl1.Location = new System.Drawing.Point(51, 212);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(826, 273);
@@ -254,10 +254,10 @@ namespace eShift.Forms.AdminForms
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.dgvPendingJobs);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(818, 244);
+            this.tabPage1.Size = new System.Drawing.Size(818, 247);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Pending Jobs";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -271,16 +271,16 @@ namespace eShift.Forms.AdminForms
             this.dgvPendingJobs.Name = "dgvPendingJobs";
             this.dgvPendingJobs.ReadOnly = true;
             this.dgvPendingJobs.RowHeadersWidth = 51;
-            this.dgvPendingJobs.Size = new System.Drawing.Size(812, 238);
+            this.dgvPendingJobs.Size = new System.Drawing.Size(812, 241);
             this.dgvPendingJobs.TabIndex = 36;
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.dgvAllJobs);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(818, 258);
+            this.tabPage2.Size = new System.Drawing.Size(818, 247);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "All Jobs";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -293,15 +293,15 @@ namespace eShift.Forms.AdminForms
             this.dgvAllJobs.Name = "dgvAllJobs";
             this.dgvAllJobs.ReadOnly = true;
             this.dgvAllJobs.RowHeadersWidth = 51;
-            this.dgvAllJobs.Size = new System.Drawing.Size(812, 252);
+            this.dgvAllJobs.Size = new System.Drawing.Size(812, 241);
             this.dgvAllJobs.TabIndex = 37;
             // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.dgvTransportUnits);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(818, 258);
+            this.tabPage3.Size = new System.Drawing.Size(818, 247);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Transport Units";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -314,7 +314,7 @@ namespace eShift.Forms.AdminForms
             this.dgvTransportUnits.Name = "dgvTransportUnits";
             this.dgvTransportUnits.ReadOnly = true;
             this.dgvTransportUnits.RowHeadersWidth = 51;
-            this.dgvTransportUnits.Size = new System.Drawing.Size(818, 258);
+            this.dgvTransportUnits.Size = new System.Drawing.Size(818, 247);
             this.dgvTransportUnits.TabIndex = 37;
             // 
             // AdminDashboard

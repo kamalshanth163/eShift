@@ -144,7 +144,7 @@ namespace eShift.Forms.Shared
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvReport.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dgvReport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvReport.Location = new System.Drawing.Point(110, 184);
+            this.dgvReport.Location = new System.Drawing.Point(98, 199);
             this.dgvReport.Name = "dgvReport";
             this.dgvReport.ReadOnly = true;
             this.dgvReport.RowHeadersWidth = 51;
@@ -197,7 +197,7 @@ namespace eShift.Forms.Shared
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTitle.Location = new System.Drawing.Point(50, 48);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(352, 46);
+            this.lblTitle.Size = new System.Drawing.Size(285, 37);
             this.lblTitle.TabIndex = 37;
             this.lblTitle.Text = "Generate Reports";
             // 
@@ -206,9 +206,9 @@ namespace eShift.Forms.Shared
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(105, 127);
+            this.label1.Location = new System.Drawing.Point(93, 142);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 29);
+            this.label1.Size = new System.Drawing.Size(125, 24);
             this.label1.TabIndex = 44;
             this.label1.Text = "Report Type";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -216,9 +216,9 @@ namespace eShift.Forms.Shared
             // cmbReportType
             // 
             this.cmbReportType.FormattingEnabled = true;
-            this.cmbReportType.Location = new System.Drawing.Point(281, 132);
+            this.cmbReportType.Location = new System.Drawing.Point(269, 147);
             this.cmbReportType.Name = "cmbReportType";
-            this.cmbReportType.Size = new System.Drawing.Size(216, 24);
+            this.cmbReportType.Size = new System.Drawing.Size(216, 21);
             this.cmbReportType.TabIndex = 43;
             // 
             // ReportsForm

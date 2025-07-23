@@ -56,7 +56,7 @@ namespace eShift.Forms.CustomerForms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvLoads.BackgroundColor = System.Drawing.SystemColors.MenuBar;
             this.dgvLoads.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvLoads.Location = new System.Drawing.Point(123, 157);
+            this.dgvLoads.Location = new System.Drawing.Point(123, 180);
             this.dgvLoads.Name = "dgvLoads";
             this.dgvLoads.ReadOnly = true;
             this.dgvLoads.RowHeadersWidth = 51;
@@ -82,9 +82,9 @@ namespace eShift.Forms.CustomerForms
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTitle.Location = new System.Drawing.Point(92, 51);
+            this.lblTitle.Location = new System.Drawing.Point(61, 43);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(237, 46);
+            this.lblTitle.Size = new System.Drawing.Size(193, 37);
             this.lblTitle.TabIndex = 44;
             this.lblTitle.Text = "View Loads";
             // 
@@ -92,9 +92,9 @@ namespace eShift.Forms.CustomerForms
             // 
             this.lblJobNumber.AutoSize = true;
             this.lblJobNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJobNumber.Location = new System.Drawing.Point(122, 125);
+            this.lblJobNumber.Location = new System.Drawing.Point(89, 104);
             this.lblJobNumber.Name = "lblJobNumber";
-            this.lblJobNumber.Size = new System.Drawing.Size(0, 29);
+            this.lblJobNumber.Size = new System.Drawing.Size(0, 24);
             this.lblJobNumber.TabIndex = 47;
             // 
             // ViewLoadsForm

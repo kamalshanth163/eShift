@@ -85,7 +85,7 @@ namespace eShift.Forms.CustomerForms
             this.btnNewJob.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnNewJob.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNewJob.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnNewJob.Location = new System.Drawing.Point(93, 103);
+            this.btnNewJob.Location = new System.Drawing.Point(387, 90);
             this.btnNewJob.Name = "btnNewJob";
             this.btnNewJob.Size = new System.Drawing.Size(127, 46);
             this.btnNewJob.TabIndex = 32;
@@ -98,7 +98,7 @@ namespace eShift.Forms.CustomerForms
             this.btnViewLoads.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnViewLoads.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewLoads.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnViewLoads.Location = new System.Drawing.Point(269, 103);
+            this.btnViewLoads.Location = new System.Drawing.Point(520, 90);
             this.btnViewLoads.Name = "btnViewLoads";
             this.btnViewLoads.Size = new System.Drawing.Size(174, 46);
             this.btnViewLoads.TabIndex = 31;
@@ -111,9 +111,9 @@ namespace eShift.Forms.CustomerForms
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblTitle.Location = new System.Drawing.Point(86, 29);
+            this.lblTitle.Location = new System.Drawing.Point(54, 29);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(417, 46);
+            this.lblTitle.Size = new System.Drawing.Size(341, 37);
             this.lblTitle.TabIndex = 26;
             this.lblTitle.Text = "Customer Dashboard";
             // 
@@ -122,7 +122,7 @@ namespace eShift.Forms.CustomerForms
             this.btnUpdateProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(111)))), ((int)(((byte)(28)))));
             this.btnUpdateProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateProfile.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnUpdateProfile.Location = new System.Drawing.Point(492, 103);
+            this.btnUpdateProfile.Location = new System.Drawing.Point(700, 90);
             this.btnUpdateProfile.Name = "btnUpdateProfile";
             this.btnUpdateProfile.Size = new System.Drawing.Size(203, 46);
             this.btnUpdateProfile.TabIndex = 34;
@@ -161,9 +161,9 @@ namespace eShift.Forms.CustomerForms
             // 
             this.lblWelcome.AutoSize = true;
             this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWelcome.Location = new System.Drawing.Point(89, 112);
+            this.lblWelcome.Location = new System.Drawing.Point(72, 101);
             this.lblWelcome.Name = "lblWelcome";
-            this.lblWelcome.Size = new System.Drawing.Size(0, 29);
+            this.lblWelcome.Size = new System.Drawing.Size(0, 24);
             this.lblWelcome.TabIndex = 36;
             // 
             // CustomerDashboard
